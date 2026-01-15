@@ -29,7 +29,7 @@
 
 .btn-query {
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Keep original gradient */
   color: white;
   border: none;
   border-radius: 8px;
@@ -120,7 +120,7 @@
 }
 
 .source-number {
-  background: #667eea;
+  background: #667eea; /* Keep original gradient color */
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
@@ -129,7 +129,7 @@
 }
 
 .source-score {
-  background: #48bb78;
+  background: #48bb78; /* Keep original green color */
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;

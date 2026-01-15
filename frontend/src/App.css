@@ -25,34 +25,6 @@
   opacity: 0.9;
 }
 
-.status-bar {
-  background: white;
-  padding: 1rem 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.status-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.status-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #48bb78;
-}
-
-.status-dot.disconnected {
-  background-color: #f56565;
-}
-
 .main-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
