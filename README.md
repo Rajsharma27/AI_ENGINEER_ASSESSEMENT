@@ -271,7 +271,6 @@ curl -X POST http://localhost:8000/query \
 
 ## 📊 Evaluation
 
-## 📊 Evaluation
 
 ### Gold Q/A Pairs (5 examples)
 
