@@ -271,17 +271,27 @@ curl -X POST http://localhost:8000/query \
 
 ## 📊 Evaluation
 
+## 📊 Evaluation
+
 ### Gold Q/A Pairs (5 examples)
 
-1. **Q**: "What is the capital of France?"  
-   **A**: "Paris [1]"  
-   **Source**: Geography textbook
+All evaluation questions are derived from an ingested Machine Learning reference document.
 
-2. **Q**: "What causes photosynthesis?"  
-   **A**: "Light energy converts CO2 and water into glucose [1][2]"  
-   **Precision**: 100% | **Recall**: 95%
+1. Q: What is machine learning?
+   A: Machine learning is a subset of AI that enables systems to learn from data without explicit programming [1].
 
-*(Add 3 more pairs based on your test documents)*
+2. Q: What are the main types of machine learning?
+   A: The main types are supervised, unsupervised, and reinforcement learning [1][2].
+
+3. Q: What is supervised learning?
+   A: Supervised learning uses labeled data to train models to make predictions [2].
+
+4. Q: What is a feature in machine learning?
+   A: A feature is an individual measurable property used as input to a model [3].
+
+5. Q: Why is data preprocessing important?
+   A: Data preprocessing improves model performance by cleaning and normalizing input data [1][3].
+
 
 ### Metrics
 - **Precision**: Citations match source locations
